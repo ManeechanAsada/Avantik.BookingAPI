@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.BookingAPI.Host", "Avantik.Web.BookingAPI.Host\Avantik.Web.BookingAPI.Host.csproj", "{E89723CA-5BED-453D-B800-CFB514D18416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.BookingAPI.Service", "Avantik.Web.BookingAPI.Service\Avantik.Web.BookingAPI.Service.csproj", "{04F3A5E7-AC9C-4E64-8C43-FD0D3EE54240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.BookingAPI.Service.Contract", "Avantik.Web.BookingAPI.Service.Contract\Avantik.Web.BookingAPI.Service.Contract.csproj", "{7AD62D5B-48D7-4FB3-B9FA-A3266762F4F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.BookingAPI.Service.Message", "Avantik.Web.BookingAPI.Service.Message\Avantik.Web.BookingAPI.Service.Message.csproj", "{D6BC8E1E-7FF6-4418-AD42-C4B50CD6B3BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.BookingAPI.Client", "Avantik.Web.BookingAPI.Client\Avantik.Web.BookingAPI.Client.csproj", "{6AEBC282-8E7C-4C84-B307-CC0410D62247}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E89723CA-5BED-453D-B800-CFB514D18416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E89723CA-5BED-453D-B800-CFB514D18416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E89723CA-5BED-453D-B800-CFB514D18416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E89723CA-5BED-453D-B800-CFB514D18416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04F3A5E7-AC9C-4E64-8C43-FD0D3EE54240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F3A5E7-AC9C-4E64-8C43-FD0D3EE54240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F3A5E7-AC9C-4E64-8C43-FD0D3EE54240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F3A5E7-AC9C-4E64-8C43-FD0D3EE54240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD62D5B-48D7-4FB3-B9FA-A3266762F4F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD62D5B-48D7-4FB3-B9FA-A3266762F4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD62D5B-48D7-4FB3-B9FA-A3266762F4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD62D5B-48D7-4FB3-B9FA-A3266762F4F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6BC8E1E-7FF6-4418-AD42-C4B50CD6B3BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6BC8E1E-7FF6-4418-AD42-C4B50CD6B3BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6BC8E1E-7FF6-4418-AD42-C4B50CD6B3BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6BC8E1E-7FF6-4418-AD42-C4B50CD6B3BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AEBC282-8E7C-4C84-B307-CC0410D62247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AEBC282-8E7C-4C84-B307-CC0410D62247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AEBC282-8E7C-4C84-B307-CC0410D62247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AEBC282-8E7C-4C84-B307-CC0410D62247}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

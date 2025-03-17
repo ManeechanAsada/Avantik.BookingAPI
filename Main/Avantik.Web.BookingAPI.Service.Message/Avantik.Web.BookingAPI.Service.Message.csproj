@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D6BC8E1E-7FF6-4418-AD42-C4B50CD6B3BB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Avantik.Web.BookingAPI.Service.Message</RootNamespace>
+    <AssemblyName>Avantik.Web.BookingAPI.Service.Message</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BookingService\BookingCancel\clsBookingCancelRequest.cs" />
+    <Compile Include="BookingService\BookingCancel\clsBookingCancelResponse.cs" />
+    <Compile Include="BookingService\BookingError.cs" />
+    <Compile Include="BookingService\BookingRead\clsBookingHeaderReadResponse.cs" />
+    <Compile Include="BookingService\BookingRead\clsBookingReadRequest.cs" />
+    <Compile Include="BookingService\BookingRead\clsBookingReadResponse.cs" />
+    <Compile Include="BookingService\BookingRead\clsFeeReadResponse.cs" />
+    <Compile Include="BookingService\BookingRead\clsFlightSegmentReadResponse.cs" />
+    <Compile Include="BookingService\BookingRead\clsMappingReadResponse.cs" />
+    <Compile Include="BookingService\BookingRead\clsPassengerReadResponse.cs" />
+    <Compile Include="BookingService\BookingRead\clsPaymentReadResponse.cs" />
+    <Compile Include="BookingService\BookingRead\clsRemarkReadResponse.cs" />
+    <Compile Include="BookingService\BookingRead\clsServiceReadResponse.cs" />
+    <Compile Include="BookingService\BookingRead\clsQuoteReadResponse.cs" />
+    <Compile Include="BookingService\BookingRead\clsTaxReadResponse.cs" />
+    <Compile Include="BookingService\clsBookingHeader.cs" />
+    <Compile Include="BookingService\BookingSave\clsBookingSaveRequest.cs" />
+    <Compile Include="BookingService\BookingSave\clsBookingSaveResponse.cs" />
+    <Compile Include="BookingService\clsBookingHeaderResponse.cs" />
+    <Compile Include="BookingService\clsFee.cs" />
+    <Compile Include="BookingService\clsFeeResponse.cs" />
+    <Compile Include="BookingService\clsFlightSegment.cs" />
+    <Compile Include="BookingService\clsFlightSegmentResponse.cs" />
+    <Compile Include="BookingService\clsMapping.cs" />
+    <Compile Include="BookingService\clsMappingResponse.cs" />
+    <Compile Include="BookingService\clsPassenger.cs" />
+    <Compile Include="BookingService\clsPassengerDocument.cs" />
+    <Compile Include="BookingService\clsPassengerResponse.cs" />
+    <Compile Include="BookingService\clsPayment.cs" />
+    <Compile Include="BookingService\clsPaymentResponse.cs" />
+    <Compile Include="BookingService\clsRemark.cs" />
+    <Compile Include="BookingService\clsRemarkResponse.cs" />
+    <Compile Include="BookingService\clsService.cs" />
+    <Compile Include="BookingService\clsServiceResponse.cs" />
+    <Compile Include="BookingService\clsQuote.cs" />
+    <Compile Include="BookingService\clsTax.cs" />
+    <Compile Include="BookingService\clsTaxResponse.cs" />
+    <Compile Include="BookingService\BookingItemsAdd\clsBookingItemsAddRequest.cs" />
+    <Compile Include="BookingService\BookingItemsAdd\clsBookingItemstAddResponse.cs" />
+    <Compile Include="clsAddress.cs" />
+    <Compile Include="BookingService\clsCreditCard.cs" />
+    <Compile Include="BookingService\clsEFT.cs" />
+    <Compile Include="clsResponseBase.cs" />
+    <Compile Include="clsTelephone.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
